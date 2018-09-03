@@ -1,0 +1,167 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container div {
+  text-align: center;
+}
+
+.phonebase img{
+  margin-right: 40px;
+}
+
+p {
+  color: rgb(127, 127, 131);
+  font-family: Arial;
+  font-size: 13px;
+}
+
+div .or {
+  padding: 5px;
+}
+
+.or p {
+  width: 100%;
+   text-align: center;
+   border-bottom: 1px solid rgb(148, 148, 148);
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+
+.or p span {
+  background:#fff;
+    padding:0 10px;
+}
+
+div p a {
+  color: rgb(47, 130, 189);
+}
+
+.Sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 25px;
+  background:rgb(36, 140, 237);
+}
+
+.Sign p {
+  color: white;
+}
+
+div .Sign {
+  margin-top: 10px;
+}
+
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 25px;
+  background:rgb(36, 140, 237);
+}
+
+.facebook p {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+div .facebook {
+  margin-bottom: 10px;
+}
+
+button p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 2px 0;
+    box-sizing: border-box;
+}
+input[type=Full] {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 2px 0;
+    box-sizing: border-box;
+}
+input[type=User] {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 2px 0;
+    box-sizing: border-box;
+}
+input[type=Password] {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 2px 0;
+    box-sizing: border-box;
+}
+/* div a{
+  background: rgb(55, 99, 150);
+  color: white;
+  width: 100%;
+  height:100%;
+  } */
+.form {
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+  border: 10px;
+}
+
+
+.Login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  margin: 50px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  width: 100vw;
+  height: 40px;
+}
+
+nav ul {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav  ul li {
+  display: inline;
+  padding: 5px 5px;
+}
+
+nav ul li a {
+  color: rgb(4, 18, 50);
+  padding: 5px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: Arial;
+}
+
+nav ul li p {
+  display: inline;
+  padding: 5px 75px;
+}
